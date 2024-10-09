@@ -1,0 +1,29 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+.header {
+    background-color: #1f2937
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
