@@ -17,6 +17,8 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 ul {
@@ -24,9 +26,9 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
     gap: 10px;
-    flex: 1;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 a {
