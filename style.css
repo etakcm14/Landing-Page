@@ -11,7 +11,7 @@ body {
 .header {
     background-color: #1f2937;
     height: 400px;
-    padding: 30px 50px 500px 200px;
+    
 }
 
 .logo {
@@ -42,7 +42,7 @@ a {
 
 .nav {
     display: flex;
-    align-items: center;
+    align-items: space-around;
     margin-bottom: 80px;
 }
 
@@ -50,7 +50,6 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8
-
 }
 
 .front {
@@ -119,5 +118,19 @@ button {
 
 .caption {
     color: gray;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+}
+
+.text {
+    background-color: #e5e7eb;
+    padding: 100px;
+    
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: light;
 }
