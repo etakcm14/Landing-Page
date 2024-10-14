@@ -6,11 +6,14 @@
 
 body {
     font-family: roboto, sans-serif;
+    min-height: 100vh;
 }
 
 .header {
     background-color: #1f2937;
     height: 600px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .logo {
@@ -78,7 +81,7 @@ button {
     border: 6px solid #3882f6;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 200px;
+    
 }
 
 #placeholder {
@@ -89,7 +92,6 @@ button {
     color: white;
     justify-content: center;
     align-items: center;
-
 }
 
 .title {
@@ -112,6 +114,7 @@ button {
     display: flex;
     justify-content: space-evenly;
     padding: 0 150px;
+    margin-top: 100px;
 }
 
 .container {
@@ -127,8 +130,6 @@ button {
 .section {
     background-color: #e5e7eb;
     padding: 100px 180px;
-    
-
 }
 
 .quote {
@@ -143,3 +144,30 @@ button {
     font-size: 24px;
     font-weight: bold;
 }
+
+.calltoaction {
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 100px 50px 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.itstime {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.moretext {
+    color: #e5e7eb;
+}
+
+#signup {
+    border: 3px solid white;
+    
+}
+
+
