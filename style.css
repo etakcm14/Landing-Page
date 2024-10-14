@@ -152,9 +152,9 @@ button {
     height: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly; 
 }
+
 .itstime {
     color: #f9faf8;
     font-size: 24px;
@@ -166,8 +166,16 @@ button {
 }
 
 #signup {
-    border: 3px solid white;
-    
+    border: 3px solid white;  
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 
